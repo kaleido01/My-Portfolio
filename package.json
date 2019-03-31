@@ -16,7 +16,7 @@
     "preghpages": "yarn build",
     "ghpages": "gh-pages -d build"
   },
-  "homepage" : "http://myname.github.io/myapp",
+  "homepage" : "https://kaleido01.github.io/My-Portfolio/",
     "eslintConfig": {
     "extends": "react-app"
   },
