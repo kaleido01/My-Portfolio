@@ -5,6 +5,7 @@ import Header from "./Header";
 import Framework from './Framework';
 import Profile from './Profile';
 import TopPage from './TopPage';
+import Skill from './Skill';
 import history from '../history'
 const App = () => {
 	return (
@@ -12,9 +13,10 @@ const App = () => {
 			<Router history={history}>
 				<Header />
         <div className="container">
-        <Route path="/" exact component={TopPage} />
-        <Route path="/profile" exact component={Profile} />
-        <Route path="/Framework" exact component={Framework} />
+        <Route path="/My-Portfolio" exact component={TopPage} />
+        <Route path="/My-Portfolio/profile" exact component={Profile} />
+        <Route path="/My-Portfolio/skill" exact component={Skill} />
+        <Route path="/My-Portfolio/Framework" exact component={Framework} />
 				</div>
 			</Router>
 		</div>
