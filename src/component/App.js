@@ -7,6 +7,7 @@ import Profile from './Profile';
 import TopPage from './TopPage';
 import Skill from './Skill';
 import history from '../history'
+import Connect from './Connect';
 const App = () => {
 	return (
 		<div>
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/My-Portfolio/skill" exact component={Skill} />
         <Route path="/My-Portfolio/Framework" exact component={Framework} />
 				</div>
+        <Connect />
 			</Router>
 		</div>
 	);
