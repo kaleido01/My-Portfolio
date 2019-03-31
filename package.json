@@ -16,8 +16,8 @@
     "preghpages": "yarn build",
     "ghpages": "gh-pages -d build"
   },
-    "homepage": "./",
-  "eslintConfig": {
+  "homepage" : "http://myname.github.io/myapp",
+    "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": [
