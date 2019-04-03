@@ -1,12 +1,12 @@
 import React from "react";
 
-const Connect = () => {
+const Contact = () => {
 	return (
 		<React.Fragment>
 			<div className="container-fluid padding">
 				<div className="row text-center padding">
 					<div className="col-12">
-						<h2>Connect</h2>
+						<h2>Contact</h2>
 					</div>
 					<div className="col-12 social padding">
 						<a href="https://kaleido01.com">
@@ -22,4 +22,4 @@ const Connect = () => {
 	);
 };
 
-export default Connect;
+export default Contact;

@@ -96,13 +96,25 @@ html,body{
 .fa-python{
   color:#d62abf;
   }
+.fa-sync-alt{
+  color:#1b8d25;
+  }
+.fa-rocket{
+  color:#f08000;
+  }
+.fa-database{
+  color:#4f2ad6;
+  }
 
 .fa-bold,
 .fa-code,
 .fa-css3,
 .fa-node,
 .fa-react,
-.fa-python{
+.fa-python,
+.fa-database,
+.fa-rocket,
+.fa-sync-alt{
   font-size:4em;
   margin: 1rem;
 }

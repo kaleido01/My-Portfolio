@@ -7,35 +7,28 @@ const Skill = () => {
 				<div className="row text-center padding">
 					<div className="col-xs-12 col-sm-6 col-md-4">
 						<i className="fas fa-code" />
-						<h3>HTML5</h3>
-						<p>フロントエンドをいじるときの最低限は使えます。</p>
-					</div>
-					<div className="col-xs-12 col-sm-6 col-md-4">
-						<i className="fas fa-bold" />
-						<h3>Bootstarp</h3>
-						<p>チートシートとyoutubuのbootcampみながら良さそうなのをいじりながら使ってます</p>
-					</div>
-					<div className="col-xs-12 col-sm-6 col-md-4">
-						<i className="fab fa-css3" />
-						<h3>CSS</h3>
-						<p>bootstrapに頼りすぎているので危険</p>
+            <i className="fab fa-css3" />
+						<h3>HTML5,CSS</h3>
+						<p>Progateで学習。道場でLP作成するところまでは実践済み。見よう見まねでひたすら経験積んでいます。
+              ずっとバックエンドだったのでこれから少しずつって感じです。
+            </p>
 					</div>
 				
 				
 					<div className="col-xs-12 col-sm-6 col-md-4">
 						<i className="fab fa-node" />
 						<h3>Node.js</h3>
-						<p>入社後のプロジェクトで今後よく出てきそうなのと流行りのjsなので</p>
-					</div>
-					<div className="col-xs-12 col-sm-6 col-md-4">
-						<i className="fab fa-react" />
-						<h3>React</h3>
-						<p>SPAページを作成したいのとやっぱり最近はjs押しなので勉強中です。ちなみにこのサイトはReactで作ってみました。</p>
+						<p>会社の少数プロジェクトでも使用されていると伺い、今流行りのJSを触ろうとおもって手を付けました。
+              同時にMongoDBも触ったので作ったアプリ見ながらなら何とかいけます。
+            </p>
 					</div>
 					<div className="col-xs-12 col-sm-6 col-md-4">
 						<i className="fab fa-python" />
 						<h3>Python</h3>
-						<p>自動化と聞いて最初にもっと勉強しておけばよかったと思っている言語。最近はDjango使いながら遊んでます。</p>
+						<p>大学のデータ処理なんかはこいつに任せてました。基本その時その時調べながら使っているのでまだまだ甘いです。
+              FrameworkにはDjangoを採用。簡単なブログくらいなら作れます。今のTwitter自動いいねはPythonにやってもらってます。  
+              将来AIによる自動化やデータ分析などにも興味があります。主にUdemyで学習中
+            </p>
 					</div>
           </div>
 

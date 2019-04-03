@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
 	return (
 		<React.Fragment>
+
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-				<Link to="/"className="navbar-brand">
-					Kaleido Portfolio
+
+				<Link to="/My-Portfolio"className="navbar-brand">
+					Kaleido's Portfolio
 				</Link>
 				<button
 					className="navbar-toggler"
@@ -21,14 +23,14 @@ const Header = () => {
 
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav mr-auto">
-						<li className="nav-item active">
+						<li className="nav-item">
 							<Link to="/My-Portfolio" className="nav-link" >
-								Toppage 
+								TopPage 
 							</Link>
 						</li>
 						<li className="nav-item">
 							<Link to="/My-Portfolio/profile" className="nav-link" >
-								profile
+								Profile
 							</Link>
 						</li>
 						<li className="nav-item">
@@ -39,6 +41,11 @@ const Header = () => {
             <li className="nav-item">
 							<Link to="/My-Portfolio/framework" className="nav-link" >
 								Framework
+							</Link>
+						</li>
+            <li className="nav-item">
+							<Link to="/My-Portfolio/contactform" className="nav-link" >
+								ContactForm
 							</Link>
 						</li>
 					</ul>

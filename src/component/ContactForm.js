@@ -1,5 +1,5 @@
 import React from "react";
-const TopPage = () => {
+const ContactForm = () => {
 	return (
 		<div>
 			<div class="jumbotron">
@@ -19,4 +19,4 @@ const TopPage = () => {
 	);
 };
 
-export default TopPage;
+export default ContactForm;
