@@ -15,8 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "preghpages": "yarn build",
-    "ghpages": "gh-pages -d build"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://kaleido01.github.io/My-Portfolio/",
   "eslintConfig": {
